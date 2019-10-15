@@ -1,0 +1,178 @@
+body {
+  padding-top: 64px;
+  height: 100%;
+  background-color: #f9f9fa;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.navbar {
+  background-color: #0c0c0d;
+}
+
+.nav-item {
+  color: #b1b1b3;
+  font-size: 15px;
+  text-align: center;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b1b1b3;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ededf0;
+}
+
+#navbarResponsive {
+  background-color: #0c0c0d;
+}
+
+
+.index div {
+  font-size: 17px;
+}
+
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.text div {
+  font-size: 17px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+
+.container-title {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+table, th, td {
+  font-size: 17px;
+  border: 2px solid #008ea4;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+table {
+  box-shadow: 5px 10px 8px 10px #b1b1b3;
+}
+
+
+.mozilla-tool, .photon-rule {
+  color: white;
+  text-align: center;
+  height: 180px;
+  position: relative;
+}
+
+.mozilla-tool-wrap, .photon-rule-wrap {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mozilla-tool-name, .photon-rule-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mozilla-tool-text, .photon-rule-text {
+  font-size: 15px;
+}
+
+
+ol li {
+  font-size: 17px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  word-wrap: break-word;
+}
+
+
+.page-content {
+  padding-bottom: 40px;
+}
+
+footer {
+  font-size: 15px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-top: -64px;
+  padding: 0;
+  background-color: #0c0c0d;
+}
+
+.for-footer {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  min-height: 100%;
+}
+
+
+@media (min-width: 992px) {
+	.navbar {
+	  height: 64px;
+	}
+	.navbar-brand {
+      font-size: 23px;
+    }
+	.nav-item {
+	  padding-left: 8px;
+	  padding-right: 8px;
+	}
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    width: auto;
+  }
+  .navbar {
+	padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .navbar-nav {
+    margin-top: 12px;
+  }
+  .img-fluid {
+    width: 30%;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+	padding-left: 14px;
+  }
+  .navbar-toggler {
+	margin-right: 14px;
+  }
+  .img-fluid {
+    width: 45%;
+  }
+  .text div {
+    width: 100%;
+  }
+}
