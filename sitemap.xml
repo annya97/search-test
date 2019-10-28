@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://annya97.github.io/who-moved-my-cheese-book/index.html</loc>
+		<lastmod>2019-10-27</lastmod>
+	</url>
+	<url>
+		<loc>https://annya97.github.io/who-moved-my-cheese-book/about-author.html</loc>
+		<lastmod>2019-10-27</lastmod>
+	</url>
+	<url>
+		<loc>https://annya97.github.io/who-moved-my-cheese-book/storyline.html</loc>
+		<lastmod>2019-10-27</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://annya97.github.io/who-moved-my-cheese-book/reviews.html</loc>
+		<lastmod>2019-10-26</lastmod>
+	</url>
+	<url>
+		<loc>https://annya97.github.io/who-moved-my-cheese-book/other-books.html</loc>
+		<lastmod>2019-10-26</lastmod>
+	</url>
+</urlset>
